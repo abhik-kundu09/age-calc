@@ -1,102 +1,158 @@
-# Age Calculator — Every Second Tells a Story
+# ✨ Age Calculator — Every Second Tells a Story
 
-A premium, interactive **Age Calculator** built with **HTML, CSS, and Vanilla JavaScript**. Enter your **Date of Birth** (and optional **Time of Birth**) to get a live breakdown of your age—**updated every second**—plus fun extras like **next birthday countdown**, **zodiac profile**, **milestones**, and **personalized fun facts**.
+<p align="center">
+  <em>A premium real-time age calculator built with HTML, CSS & Vanilla JavaScript.</em>
+</p>
 
-> Clean UI, glassmorphism styling, animated background, and responsive design.
-
----
-
-## Live Demo
-
-- [Add your GitHub Pages / hosted link here]
-
----
-
-## Features
-
-- **DOB required** + **TOB optional** (time-based effects)
-- **Live age statistics**: Years, Months, Weeks, Days, Hours, Minutes, Seconds
-- **Live milestones**: Heartbeats, Breaths, Hours slept, Sunrises, Moon cycles
-- **Next birthday countdown** (Days / Hours / Minutes / Seconds)
-- **Zodiac profile** (sign, element, keyword, date range)
-- **Dynamic fun facts** generated from your calculated timeline
-- **Dark / Light theme toggle** (persisted using `localStorage`)
-- **Interactive visuals**:
-  - Animated aurora + particle canvas background
-  - Tilt/parallax effect on supported devices
-  - Scroll reveal animations (IntersectionObserver)
-- **Accessibility-friendly**:
-  - Semantic sections
-  - `aria-live` for results updates
-  - Keyboard focus styles and reduced-motion support
+<p align="center">
+  <a href="https://abhik-kundu09.github.io/age-calc/">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Project-blue?style=for-the-badge" alt="Live Demo">
+  </a>
+</p>
 
 ---
 
-## Tech Stack
+## 📖 Overview
 
-- **HTML5**
-- **CSS3** (glassmorphism, gradients, responsive layout, animations)
-- **Vanilla JavaScript** (date math, live updates, DOM rendering)
+Age Calculator is a modern, interactive web application that transforms a simple date of birth into a rich timeline of life statistics.
 
----
-
-## How to Run
-
-This project is static.
-
-1. Open `ASSIGNMENT-2/index.html` in your browser.
-2. (Optional) Use any local static server if you prefer:
-   - `npx serve ASSIGNMENT-2` (or similar)
+Instead of displaying only years and months, it continuously updates your age every second and presents meaningful insights, milestones, zodiac information, and fun facts through a visually engaging interface.
 
 ---
 
-## Usage
+## 🌟 Features
 
-1. Select your **Date of Birth**.
-2. (Optional) Provide your **Time of Birth** (24-hour format).
-3. Click **Calculate My Age**.
-4. Results will appear instantly and update **every second**.
-5. Use **Clear** to reset and calculate again.
+### ⏳ Real-Time Age Tracking
+
+* Live age updates every second
+* Years, Months, Weeks, Days
+* Hours, Minutes, Seconds
+
+### 🎂 Birthday Intelligence
+
+* Next birthday countdown
+* Remaining Days, Hours, Minutes & Seconds
+* Upcoming age milestone tracking
+
+### ♈ Zodiac Insights
+
+* Zodiac Sign Detection
+* Element Classification
+* Personality Keywords
+* Date Range Information
+
+### 📊 Life Milestones
+
+* Estimated Heartbeats
+* Total Breaths Taken
+* Hours Slept
+* Sunrises Witnessed
+* Moon Cycles Completed
+
+### 🎨 Premium User Experience
+
+* Glassmorphism UI
+* Aurora Background Effects
+* Animated Particles
+* Smooth Transitions
+* Scroll Reveal Animations
+* Tilt & Parallax Interactions
+
+### ♿ Accessibility
+
+* Semantic HTML Structure
+* Keyboard Navigation Support
+* ARIA Live Regions
+* Reduced Motion Support
+* Responsive Layout
 
 ---
 
-## Project Structure
+## 🛠 Tech Stack
 
-- `ASSIGNMENT-2/index.html` — UI + semantic structure
-- `ASSIGNMENT-2/style.css` — styling, themes, animations, responsive layout
-- `ASSIGNMENT-2/script.js` — age calculation logic, live timers, UI updates
-
----
-
-## How It Works (Brief)
-
-- The app converts your DOB into a JavaScript `Date` object.
-- It computes:
-  - **Human-readable age** (years/months/days)
-  - **Total elapsed time** (seconds, minutes, hours, days, weeks)
-- A timer runs every **1000ms** to refresh live counters.
-- Zodiac and fun facts are derived from birth date and the computed timeline.
+| Technology         | Purpose                   |
+| ------------------ | ------------------------- |
+| HTML5              | Structure                 |
+| CSS3               | Styling & Animations      |
+| Vanilla JavaScript | Logic & Live Calculations |
 
 ---
 
-## Accessibility & Performance Notes
+## 🚀 Live Demo
 
-- Background animations are skipped when **reduced motion** is enabled.
-- Particle animation pauses when the tab is hidden (`document.hidden`).
-- UI updates use semantic attributes and focus management to improve usability.
-
----
-
-## License
-
-MIT (or replace with your preferred license).
+<p align="center">
+  <a href="https://abhik-kundu09.github.io/age-calc/">
+    <img src="https://img.shields.io/badge/Open%20Age%20Calculator-Click%20Here-success?style=for-the-badge&logo=github" alt="Open Project">
+  </a>
+</p>
 
 ---
 
-### Credits
+## 📸 Preview
 
-Built as **Assignment 2** using only frontend technologies (no external frameworks). 
+
+```md
+![Project Preview](assets/image.png)
+```
 
 ---
 
-*Tip for GitHub:* consider adding a screenshot/gif under **Live Demo** or at the top of this README to make your repo look even more complete.
+## 🎥 Demo GIF
+
+Add your GIF here:
+
+```md
+![Demo GIF](assets/age_calc.gif)
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+age-calc/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── assets/
+    ├── screenshot.png
+    └── demo.gif
+```
+
+---
+
+## ⚙️ How It Works
+
+1. User enters Date of Birth.
+2. Optional Time of Birth enhances accuracy.
+3. JavaScript calculates elapsed time.
+4. Live counters refresh every second.
+5. Zodiac data and fun facts are generated dynamically.
+6. Birthday countdown updates in real time.
+
+---
+
+## 📱 Responsive Design
+
+Optimized for:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile Devices
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 👨‍💻 Author
+
+**Abhik Kundu**
+
+If you enjoyed this project, consider giving it a ⭐ on GitHub.

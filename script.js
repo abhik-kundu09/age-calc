@@ -439,6 +439,7 @@ function resetCalculator() {
   emptyState.style.transform = 'scale(1)';
 
   resultsWrap.classList.add('hidden');
+  glassCard.classList.remove('has-results');
 
   calcBtn.classList.remove('loading', 'success');
   calcBtn.disabled = false;
@@ -516,6 +517,7 @@ function calculate() {
     setTimeout(() => emptyState.style.display = 'none', 300);
 
     resultsWrap.classList.remove('hidden');
+    glassCard.classList.add('has-results');
 
     const now = new Date();
     const age = calcAge(birth, now);
