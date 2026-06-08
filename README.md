@@ -99,7 +99,7 @@ Instead of displaying only years and months, it continuously updates your age ev
 
 ## 🎥 Demo
 
-![Age Calculator Demo](assets/age calc.gif)
+![Age Calculator Demo](assets/age_calc.gif)
 
 
 ---
