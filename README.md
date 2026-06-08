@@ -95,14 +95,6 @@ Instead of displaying only years and months, it continuously updates your age ev
   <img src="assets/image.png" alt="Age Calculator Preview">
 </a>
 
----
-
-## 🎥 Demo
-
-![Age Calculator Demo](assets/age_calc.gif)
-
-
----
 
 ## 📂 Project Structure
 
