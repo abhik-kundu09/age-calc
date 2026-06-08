@@ -88,22 +88,19 @@ Instead of displaying only years and months, it continuously updates your age ev
 
 ---
 
+
 ## 📸 Preview
 
-
-```md
-![Project Preview](assets/image.png)
-```
+<a href="https://abhik-kundu09.github.io/age-calc/">
+  <img src="assets/image.png" alt="Age Calculator Preview">
+</a>
 
 ---
 
-## 🎥 Demo GIF
+## 🎥 Demo
 
-Add your GIF here:
+![Age Calculator Demo](assets/age calc.gif)
 
-```md
-![Demo GIF](assets/age_calc.gif)
-```
 
 ---
 
