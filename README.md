@@ -106,8 +106,7 @@ age-calc/
 ├── script.js
 ├── README.md
 └── assets/
-    ├── screenshot.png
-    └── demo.gif
+    ├── image.png
 ```
 
 ---
@@ -131,12 +130,6 @@ Optimized for:
 * Laptop
 * Tablet
 * Mobile Devices
-
----
-
-## 📄 License
-
-MIT License
 
 ---
 
